@@ -9,12 +9,12 @@
   "main": "electron/start.js",
   "scripts": {
     "start": "npm run build && electron-forge start",
+    "react-start": "react-scripts start BROWSER=none",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "electron": "electron .",
     "electron-start": "node electron/start-react",
-    "react-start": "react-scripts start BROWSER=none",
     "pack": "build --dir",
     "dist": "npm run build && build",
     "postinstall": "install-app-deps",

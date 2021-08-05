@@ -10,7 +10,6 @@ export default function Routes() {
       <Router history={history}>
         <Switch>
           <AppRoutes />
-          <Redirect to="/not-found" />
         </Switch>
       </Router>
     </React.Fragment>
